@@ -1,0 +1,84 @@
+# .gitignore - 通用模板
+# 说明: 包含 Windows/macOS, Python, Julia, R, Node, IDE, Jupyter 等常见忽略项
+
+### 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Windows / PowerShell / temp
+ehthumbs.db
+Icon?
+*.log
+
+### IDEs
+/.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+### Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+### Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+ENV/
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+*.sqlite3
+*.db
+instance/
+.pytest_cache/
+
+### Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+### Julia
+/.julia/compiled/
+/.julia/artifacts/
+/*.jl.cov
+
+### R
+.Rhistory
+.RData
+.Ruserdata
+__cache__/
+
+### Data / archives / large files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+### Environment / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+
+### Git extras
+*.orig
+.cache
+
+# 如果需要 Git LFS, 在本地运行: git lfs install && git lfs track "<pattern>"
+
+# Allow specific large files tracked by Git LFS
+!exp_outputs_ip2p.tar.gz
+!exp_outputs_sdxl.tar.gz
