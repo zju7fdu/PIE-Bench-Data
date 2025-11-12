@@ -82,3 +82,4 @@ credentials.json
 # Allow specific large files tracked by Git LFS
 !exp_outputs_ip2p.tar.gz
 !exp_outputs_sdxl.tar.gz
+!pie_bench_phase2.tar.gz
